@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["2nd Year Engineering Student at OntarioTechU", "3D Modelling/Printing Enthusiast", "Gamer", "Athlete"],
+        strings: ["2nd Year Engineering Student at OntarioTechU", "3D Modelling/Printing Enthusiast", "Gamer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
