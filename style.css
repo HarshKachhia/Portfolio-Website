@@ -205,8 +205,8 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #3b5998;/*TYping Homescreen*/
-    font-weight: 500;
+    color: #4461a0;/*TYping Homescreen*/
+    font-weight: 700;
 }
 .home .home-content a{
     display: inline-block;
@@ -215,14 +215,15 @@ section .title::after{
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
-    font-weight: 400;
+    font-weight: 500;
     border-radius: 6px;
     border: 2px solid rgb(32, 38, 57);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: #3b5998;
+    color: white;
     background: none;
+    border: 2px solid white;
 }
 
 .white{
@@ -260,7 +261,7 @@ section .title::after{
     background: var(--inversegradient);
     color: #fff;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 525;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
@@ -269,6 +270,7 @@ section .title::after{
 }
 .about .about-content .right a:hover{
     color: #3b5998;
+    border: 2px solid #3b5998;
     background: none;
 }
 
@@ -339,7 +341,7 @@ section .title::after{
     background: var(--inversegradient);
     color: #fff;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 525;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
@@ -348,6 +350,7 @@ section .title::after{
 }
 .skills .skills-content .left a:hover{
     color: #3b5998;
+    border: 2px solid #3b5998;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -578,7 +581,7 @@ ol {
   height: 45px;
   outline: none;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 550;
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
@@ -588,6 +591,7 @@ ol {
 }
 .right form .button-area button:hover{
   color: #3b5998;
+  border: 2px solid #3b5998;
   background: none;
 }
 /* footer section styling */
@@ -742,13 +746,15 @@ footer span a:hover{
     font-size: 18px;
     padding: 10px 15px;
     margin-top: 18px;
-    font-weight: 400;
+    font-weight: 500;
     border-radius: 6px;
     border: 2px solid  rgb(32, 38, 57);
     transition: all 0.3s ease;
 }
 .teams .title a:hover{
-    color: #3b5998;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white;
     background: none;
 }
 

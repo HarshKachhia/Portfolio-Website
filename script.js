@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Hard Worker","Problem Solver", "Fast Learner", "Team Player", "Critical Thinker"],
+        strings: ["Smart Worker","Problem Solver", "Fast Learner", "Team Player", "Critical Thinker"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
