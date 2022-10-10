@@ -35,15 +35,15 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["2nd Year Engineering Student at OntarioTechU", "3D Modelling/Printing Enthusiast", "Gamer"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        strings: ["3rd Year Engineering Student at OntarioTechU","Ex- Jr. Mechatronics Engineering Specalist","Yellow Belt Lean Six Sigma Certification Holder" , "3D Modeling/Printing Enthusiast"],
+        typeSpeed: 50,
+        backSpeed: 50,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Smart Worker","Problem Solver", "Fast Learner", "Team Player", "Critical Thinker"],
-        typeSpeed: 100,
+        strings: ["Smart Worker","Problem Solver", "Fast Learner", "Critical Thinker", "Team Player"],
+        typeSpeed: 60,
         backSpeed: 60,
         loop: true
     });
