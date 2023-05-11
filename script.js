@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["3rd Year Engineering Student at OntarioTechU","Ex- Jr. Mechatronics Engineering Specalist","Yellow Belt Lean Six Sigma Certification Holder" , "3D Modeling/Printing Enthusiast"],
+        strings: ["4th Year Engineering Student at OntarioTechU","Ex- Jr. Mechatronics Engineering Specalist","Yellow Belt Lean Six Sigma Certification Holder" , "3D Modeling/Printing Enthusiast"],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true
