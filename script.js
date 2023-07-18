@@ -35,9 +35,9 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["4th Year Engineering Student at OntarioTechU","Ex- Jr. Mechatronics Engineering Specalist","Yellow Belt Lean Six Sigma Certification Holder" , "3D Modeling/Printing Enthusiast"],
-        typeSpeed: 50,
-        backSpeed: 50,
+        strings: ["4th Year Engineering Student at OntarioTechU","Ex- Jr. Mechatronics Engineering Specalist","SOLIDWORKS Mechanical Design Associate Certification Holder","Yellow Belt Lean Six Sigma Certification Holder" , "3D Modeling/Printing Enthusiast"],
+        typeSpeed: 60,
+        backSpeed: 60,
         loop: true
     });
 
