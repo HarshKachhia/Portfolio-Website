@@ -554,20 +554,6 @@ section .title::after {
     vertical-align: middle;
 }
 
-/* Tesla job title color (matching logo) */
-.experience-card:nth-of-type(1) .experience-content p strong {
-    color: #af4848 !important;
-}
-
-/* Bluewrist job title color (matching logo) */
-.experience-card:nth-of-type(2) .experience-content p strong {
-    color: #1c7ed6 !important;
-}
-
-/* Stackpole job title color (matching logo) */
-.experience-card:nth-of-type(3) .experience-content p strong {
-    color: #2a4c96 !important;
-}
 
 
 
@@ -576,23 +562,36 @@ section .title::after {
 
 
 
-/* Responsive Adjustments */
+
+/* Add media query for mobile responsiveness */
 @media (max-width: 768px) {
-    .experience-container {
-        flex-direction: column;
-    }
-
     .experience-card {
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        /* Center align the entire content */
+        text-align: center;
     }
 
     .company-logo {
-        margin-bottom: 15px;
+        margin: 10px 0;
+        /* Ensure some spacing around the logo */
+        width: 100px;
+        /* Adjust the size of the logo for mobile */
     }
 
     .experience-content {
         max-width: 100%;
+    }
+
+    .experience-content h3 {
+        margin-top: 10px;
+        /* Add some spacing above the company name */
+    }
+
+    .job-info {
+        margin-bottom: 15px;
+        /* Add space between the job info and the description */
     }
 }
 
