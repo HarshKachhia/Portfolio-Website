@@ -461,6 +461,8 @@ section .title::after {
     font-weight: 400;
     color: #ccc;
     line-height: 1.5;
+    text-align: left;
+    /* Ensures the bullet points are left-aligned */
 }
 
 .experience-content ul li {
@@ -470,7 +472,10 @@ section .title::after {
     /* Ensure no extra padding on the list item */
     line-height: 1.5;
     /* Improve readability */
+    text-align: left;
+    /* Ensures each list item is left-aligned */
 }
+
 
 /* Box Style for Skills/Technologies */
 .askills-used {
@@ -506,6 +511,70 @@ section .title::after {
     border: 2px solid #fff;
     /* Keep border white */
 }
+
+/* Target the job details paragraph to be left-aligned */
+.job-details {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+/* Ensure flexbox layout for job info alignment */
+.job-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.job-title {
+    text-align: left;
+    flex: 1;
+    padding-right: 10px;
+}
+
+.job-location {
+    text-align: center;
+    flex: 1;
+    padding-right: 10px;
+}
+
+.job-duration {
+    text-align: right;
+    flex: 1;
+}
+
+/* Padding around icons */
+.experience-content p i {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ccc;
+    vertical-align: middle;
+}
+
+/* Tesla job title color (matching logo) */
+.experience-card:nth-of-type(1) .experience-content p strong {
+    color: #af4848 !important;
+}
+
+/* Bluewrist job title color (matching logo) */
+.experience-card:nth-of-type(2) .experience-content p strong {
+    color: #1c7ed6 !important;
+}
+
+/* Stackpole job title color (matching logo) */
+.experience-card:nth-of-type(3) .experience-content p strong {
+    color: #2a4c96 !important;
+}
+
+
+
+
+
+
+
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
@@ -734,6 +803,7 @@ ol {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    text-align: center;
 }
 
 .teams .carousel .card img {
@@ -743,6 +813,16 @@ ol {
     border-radius: 15px;
     border: 5px solid #3b5998;
     transition: all 0.3s ease;
+}
+
+.teams .carousel .card p {
+    text-align: left;
+    /* Align the description text to the left */
+    margin-top: 15px;
+    color: #fff;
+    /* Adjust color if necessary */
+    line-height: 1.6;
+    /* Improve readability */
 }
 
 .teams .carousel .card:hover img {
