@@ -769,6 +769,42 @@ ol {
     text-align: center;
 }
 
+/* See More Button Styling */
+.see-more-btn {
+    font-size: 14px;
+    font-weight: bold;
+    color: #3b5998;
+    border: 2px solid #3b5998;
+    background: transparent;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    /* Ensures proper inline behavior */
+}
+
+/* Hover animation for See More button */
+.see-more-btn:hover {
+    background: #3b5998;
+    color: #fff;
+    /* White text on hover */
+}
+
+/* To match the size of the skill buttons */
+.askill,
+.see-more-btn {
+    font-size: 14px;
+    /* Adjust as needed */
+    padding: 5px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
 .teams .title::after {
     content: "What I've done";
 }
